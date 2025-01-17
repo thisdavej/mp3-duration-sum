@@ -1,14 +1,15 @@
 [package]
 name = "mp3-duration-sum"
-description = "Parallelized counting of duration of all `.mp3` files in the given directory"
+description = "Parallelized counting of duration of all .mp3 files in the given directory"
 repository = "https://github.com/Gregoor/mp3-duration-sum"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Gregor Weber <gregorwbr@gmail.com>"]
 edition = "2018"
 license = "MIT"
 categories = ["command-line-utilities"]
 
 [dependencies]
+human-time = "0.1.6"
 mp3-duration = "0.1"
 rayon = "1.0"
 structopt = "0.2"
